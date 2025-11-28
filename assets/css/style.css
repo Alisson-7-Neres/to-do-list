@@ -1,0 +1,69 @@
+body {
+    background-color: rgb(244, 255, 255);
+}
+
+#container {
+    display: flex;
+}
+
+#calendar {
+    display: flex;
+    width: 600px;
+    height: 600px;
+    margin: 5vh;
+}
+
+#tasks {
+    margin: 5vh;
+    width: 50%;
+
+}
+
+#taskLabel {
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+#titulo, #comeco, #fim {
+  font-size: 16px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 300px;
+  border: none;
+  border-bottom: 1px solid #515151;
+  background: transparent;
+  outline: none;
+}
+
+#btnEvent {
+    background-color: rgb(17, 2, 63);
+    color: beige;
+    font-weight: bold;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+}
+
+#btnAdd {
+    background-color: rgb(10, 140, 43);
+    color: beige;
+    font-weight: bold;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+
+    text-align: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ol {
+    list-style: none;
+}
+
+li {
+    margin: 1vh;
+}
