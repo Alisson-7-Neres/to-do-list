@@ -19,28 +19,22 @@
             <label id="taskLabel">Tarefas</label><br /><br />
             <input id="btnEvent" type="button" value="Adicionar tarefa" onclick="createEvent()"></input>
             <div id="divTasks">
-                <!--
-                        <ol>
-                            <li>
-                                <input type="checkbox">
-                                <label>Bootcamp CI&T</label>
-                            </li>
-                        <li>
-                            <input type="checkbox">
-                            <label>Formação JavaScript</label>
-                        </li>
-                        <li>
-                            <input type="checkbox">
-                            <label>Certificação Azure 900</label>
-                        </li>
-                        <li>
-                            <input type="checkbox">
-                            <label>Certificação Scrum Master</label>
-                        </li>
-                    </ol>
-                    -->
+                <ol>
+                    <li>
+                        <input name="titulo" id="titulo" placeholder="Título">
+                    </li>
+                    <li>
+                        <input name="date" id="comeco" type="date" placeholder="Começo">
+                    </li>
+                    <li>
+                        <input name="fim" id="fim" type="date" placeholder="Fim">
+                    </li>
+                </ol>
+                <input type="button" value="Adicionar" id="btnAdd">
             </div>
+
         </div>
+
 
     </div>
     <!-- Usando a API https://fullcalendar.io/-->

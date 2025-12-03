@@ -19,12 +19,10 @@ body {
 
 }
 
-#taskLabel {
-    text-align: center;
-    font-size: 28px;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
+#divTasks {
+    display: none;
 }
+
 
 #titulo, #comeco, #fim {
   font-size: 16px;
