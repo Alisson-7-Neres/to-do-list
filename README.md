@@ -2,6 +2,6 @@
 
 - [X] Consumir API FullCalendar
 - [X] Adicionar tarefas
-- [] Listar tarefas
+- [X] Listar tarefas
 - [] Atualizar tarefas
 - [] Remover tarefas
